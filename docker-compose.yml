@@ -1,7 +1,7 @@
 version: "2"
 services:
   postman_checks:
-      container_name: restful_booker_checks
+      container_name: API-Automation-postman 
       build: .
       image: postman_checks
       command:
